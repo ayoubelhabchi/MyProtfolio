@@ -138,6 +138,8 @@ export const portfolio = [
     name: "Fushaar App",
     des: "Movie app build to simplify  the way you search for movies information using APi Tmdb.",
     github: "https://github.com/ayoubelhabchi/Movies-App",
+    deployment: "https://fushaar.netlify.app/",
+
   },
 ];
 
