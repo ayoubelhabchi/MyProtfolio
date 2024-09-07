@@ -1,5 +1,5 @@
 import "./about.css";
-import CV from "../../mycv.pdf";
+import CV from "../../Ayoub_El_Habchi_CV_French.pdf";
 
 import Heading from "../../components/headingText/heading";
 import Card from "../../UI/card";

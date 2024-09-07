@@ -37,6 +37,11 @@
   color: var(--color-dark) !important;
 }
 
+.project div{
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1024px) {
   .project-container {
     grid-template-columns: 1fr 1fr;

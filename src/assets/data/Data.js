@@ -120,51 +120,24 @@ import protfoliImg1 from "../images/photograph.png";
 import protfoliImg2 from "../images/ecom.png";
 import protfoliImg3 from "../images/survey.png";
 import protfoliImg4 from "../images/ai.png";
-import protfoliImg5 from "../images/movie.png";
-import protfoliImg6 from "../images/food.png";
+import protfoliImg5 from "../images/GuideMe_Morocco.png";
+import protfoliImg6 from "../images/fushaar.png";
 export const portfolio = [
-  // {
-  //   id: 1,
-  //   img: protfoliImg1,
-  //   name: "Photograph Portfolio",
-  //   des: "a web portfolio for a photographer that allows them to showcase their work and give access to specific customers to view it and book a date with photographer",
-  //   github: "#",
-  // },
-  // {
-  //   id: 2,
-  //   img: protfoliImg2,
-  //   name: "Ecommerce Plateform",
-  //   des: "E-commerce platform that allows customers to sell their products and services online.",
-  //   github: "#",
-  // },
-  // {
-  //   id: 3,
-  //   img: protfoliImg3,
-  //   name: "Survey Managment",
-  //   des: "Survey platform to manage surveys based on role of each user",
-  //   github: "https://github.com/zakariaxw/survey-app/",
-  // },
 
-  // {
-  //   id: 4,
-  //   img: protfoliImg4,
-  //   name: "AI Image Generator",
-  //   des: "an AI Image Generator webiste based on api of DalleAI which can help user imagine a image based on their keywords",
-  //   github: "https://github.com/zakariaxw/imagegenerate",
-  // },
   {
     id: 5,
     img: protfoliImg5,
-    name: "Movie Info",
-    des: "Movie app build to simplify  the way you search for movies information using APi OMDB.",
-    github: "https://github.com/zakariaxw/MovieInfo",
+    name: "GuideMe Morocco",
+    des: "Tourism website where you can buy or sell your service, whatever it is camping or tour",
+    github: "https://github.com/ayoubelhabchi/Guide-Tourism.git",
+    deployment: "https://guideme-morocco.netlify.app/",
   },
   {
     id: 6,
     img: protfoliImg6,
-    name: "Food Reservation",
-    des: "Food reservation to make client  able to reserve a table in restaurant and see avalibity of table in restaurant.",
-    github: "https://github.com/zakariaxw/food-reservation",
+    name: "Fushaar App",
+    des: "Movie app build to simplify  the way you search for movies information using APi Tmdb.",
+    github: "https://github.com/ayoubelhabchi/Movies-App",
   },
 ];
 

@@ -11,7 +11,7 @@ const Projects = () => {
         <Heading title={"Recent"} titlePrimary={"Work"}></Heading>
 
         <div className="container project-container">
-          {portfolio.map(({ id, img, name, des, github }) => {
+          {portfolio.map(({ id, img, name, des, github, deployment }) => {
             return (
               <Card key={id} className={"project"}>
                 <img src={img} alt="image" />
@@ -19,7 +19,10 @@ const Projects = () => {
                   <b>{name}</b>
                 </h3>
                 <p>{des}</p>
-                <a href={github}>View</a>
+                <div>
+                  <a href={github}>Source Code</a>
+                  <a href={deployment}>View Website</a>
+                </div>
               </Card>
             );
           })}
