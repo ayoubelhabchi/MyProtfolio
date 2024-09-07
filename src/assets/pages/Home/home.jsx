@@ -38,7 +38,7 @@ const Home = () => {
         <img src={HeaderImage} alt="hero" />
         <div className="header-right">
           <h1>
-            <span>{typedName}</span>
+            <span className="typedName">{typedName}</span>
             <br />
             {role}
           </h1>

@@ -4,7 +4,7 @@
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -18,8 +18,8 @@
   border-radius: 1rem;
   border: 1px solid var(--color-dark);
   background: rgb(24, 24, 24);
-  height: 200px;
-  object-fit: contain;
+  /* height: 300px; */
+  object-fit: cover;
 }
 
 .project a {
@@ -54,7 +54,7 @@
 @media (max-width: 600px) {
   .project-container {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: rem;
   }
   .projects {
     padding-top: 60px;

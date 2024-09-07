@@ -51,7 +51,13 @@
   color: var(--color-primary);
 }
 .navlinksActive h3 {
-  color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.navlinksActive {
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  padding: 10px;
 }
 
 /* media query */
@@ -98,6 +104,10 @@
   }
   .nav-link:hover h3 {
     color: var(--color-primary);
+    transform: scale(0.9);
+  }
+  .navlinksActive:hover h3 {
+    color: var(--color-white);
     transform: scale(0.9);
   }
 

@@ -59,7 +59,6 @@ import image10 from "../images/express.png";
 import image12 from "../images/html.png";
 import image11 from "../images/css.png";
 export const tools = [
-  
   {
     id: 2,
     img: image2,
@@ -68,12 +67,12 @@ export const tools = [
     id: 3,
     img: image3,
   },
-  
+
   {
     id: 5,
     img: image5,
   },
-  
+
   {
     id: 7,
     img: image7,
@@ -123,23 +122,21 @@ import protfoliImg4 from "../images/ai.png";
 import protfoliImg5 from "../images/GuideMe_Morocco.png";
 import protfoliImg6 from "../images/fushaar.png";
 export const portfolio = [
-
   {
     id: 5,
     img: protfoliImg5,
     name: "GuideMe Morocco",
-    des: "Tourism website where you can buy or sell your service, whatever it is camping or tour",
-    github: "https://github.com/ayoubelhabchi/Guide-Tourism.git",
+    des: "A tourism platform where users can book guided tours, while local guides can offer their services, creating a seamless connection between travelers and experienced guides for personalized adventures.",
+    github: "https://github.com/ayoubelhabchi/Guide-Tourism",
     deployment: "https://guideme-morocco.netlify.app/",
   },
   {
     id: 6,
     img: protfoliImg6,
     name: "Fushaar App",
-    des: "Movie app build to simplify  the way you search for movies information using APi Tmdb.",
+    des: "A web application where users can explore the latest movies, TV shows, and anime, view details, watch trailers, create an account, and favorite their top picks for easy access.",
     github: "https://github.com/ayoubelhabchi/Movies-App",
     deployment: "https://fushaar.netlify.app/",
-
   },
 ];
 

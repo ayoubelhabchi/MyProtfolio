@@ -49,7 +49,7 @@ header {
   .header-container {
     grid-template-columns: 1fr;
     gap: 0;
-    justify-items: center; 
+    justify-content: center; 
   }
 
   .header-container::before {
@@ -61,5 +61,15 @@ header {
   .header-container img {
     width: 70
 
+  }
+
+  .header-right .typedName{
+    font-size: 2rem;
+    text-wrap: nowrap;
+  }
+
+  .header-container {
+    height: 90%;
+    padding: 20px;
   }
 }
